@@ -1,0 +1,189 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+/* 引入的头部改动背景 */
+#header {
+    background: url(../img/index/head2.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+.container .row .nopadding {
+    padding-left: 0;
+    padding-right: 0;
+}
+/*照片详情*/
+.container .row .details-pic{
+    background-color:rgb(255,255,255);
+    padding: 1em;
+    border-left: 0.4em solid rgb(236, 236, 236);
+}
+.container .row .details-pic img{
+    width: 100%;
+}
+.container .row .details-pic .labels{
+    margin: 2em auto;
+    border-bottom: 2px solid rgb(236, 236, 236);
+    border-top: 2px solid rgb(236, 236, 236);
+    padding: 0.5em; 
+    margin-bottom: 0;
+}
+.container .row .details-pic .labels img{
+    width: auto;
+    height: auto;
+    margin-right: 1em;
+}
+.container .row .details-pic .labels span{
+    border: 1px solid rgb(200, 200, 200);
+    padding: 4px;
+    border-radius: 6px;
+}
+.container .row .details-pic .zan span{
+    width: 4em;
+    margin-left: 12em;
+    background: url(../img/details/9.png);
+}
+.container .row .details-pic .zan{
+    border-bottom: 2px solid rgb(236, 236, 236);
+}
+.container .row .details-pic .zan .btn-lg{
+    background: url(../img/details/9.png) no-repeat;
+    background-size: 100% 100%;
+    width: 4em;
+    height: 4em;
+    margin: 0.5em auto;
+    margin-left: 15em;
+}
+.container .row .details-pic .zan .btn-lg:hover{
+    background: url(../img/details/9.1.png) no-repeat;
+    background-size: 100% 100%;
+}
+.container .row .details-pic .zan .btn-sm{
+    background: url(../img/details/23.png) no-repeat;
+    background-size: 100% 100%;
+    width: 4em;
+    height: 2.5em;
+    margin: 0.5em auto;
+    margin-left: 15em;
+}
+.container .row .details-pic .zan .btn-sm:hover{
+    background: url(../img/details/22.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+/*右侧样式*/
+.container .row .details-author .author{
+    background-color:rgb(255,255,255);
+    border-left: 0.4em solid rgb(236, 236, 236);
+    border-bottom: 1em solid rgb(236, 236, 236);
+}
+.container .row .details-author .names{
+    border-bottom: 2px solid rgb(236, 236, 236); 
+}
+.container .row .details-author .names img{
+    display: inline-block;
+    margin: 1em;
+    margin-left: 2em;
+}
+.container .row .details-author .names span{
+    display: inline-block;
+    position: absolute;
+    top: 2em;
+}
+.container .row .details-author .names button{
+    position: relative;
+    top: 1.5em;
+    left: 1em;
+    width: 5em;
+    height: 2em;
+    line-height: 1em;
+    border-radius: 10px;
+}
+#btns .btn:focus,
+#btns .btn:active:focus,
+#btns .btn.active:focus,
+#btns .btn.focus,
+#btns .btn:active.focus,
+#btns .btn.active.focus {
+    outline: none;
+    box-shadow: none;
+}
+.container .row .details-author .times{
+    border-bottom: 2px solid rgb(236, 236, 236); 
+}
+.container .row .details-author .times img{
+    margin: 1em;
+    margin-right: 0.5em;
+    margin-left: 2em;
+}
+.container .row .details-author .times p{
+    margin-left: 2em;
+    color: rgb(115,115,115);
+}
+.container .row .details-author .skills ul{
+    padding-left: 2em;
+}
+.container .row .details-author .skills li{
+ list-style: none;
+ display: inline-block;
+}
+.container .row .details-author .skills li img{
+    display: block;
+}
+.container .row .details-author .skills li img:first-child{
+    margin-bottom: 1em;
+}
+.container .row .details-author .skills li .skills-name{
+    position: relative;
+    bottom: 1em;
+    margin: 1.5em;
+    margin-bottom: 0;
+}
+.container .row .details-author .skills li .ps{
+    color: rgb(52,91,111);
+}
+.container .row .details-author .skills li .ai{
+    color: rgb(180,133,41);
+}
+.container .row .details-author .skills li .value{
+    position: relative;
+    bottom: 1em;
+    left: 2em;
+    margin: 1.5em;
+    margin-bottom: 0;
+}
+.container .row .details-author .others{
+    background-color:rgb(255,255,255);
+    border-left: 0.4em solid rgb(236, 236, 236);
+    border-bottom: 1em solid rgb(236, 236, 236);
+}
+.container .row .details-author .others img{
+    width: 100%;
+    height: 100%;
+    padding: 0em 1em;
+    margin: 0.5em auto;
+}
+.container .row .details-author .others p{
+    border-bottom: 2px solid rgb(236, 236, 236);
+    padding: 0.5em;
+    font-size: 1.5em;
+    color: rgb(0, 0, 0);
+    margin-bottom: 0px;
+}
+.container .row .details-author .others .btn,
+.container .row .details-author .others .btn-lg{
+    padding: 0;
+    font-size: 2em;
+}
+
+/*页脚*/
+.copy {
+    color: rgb(112, 98, 74);
+    font-weight: 200;
+    font-size: 1px;
+}
+.copy-top {
+    margin-top: 1.1em;
+}

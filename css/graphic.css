@@ -1,0 +1,366 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+
+/* 引入的头部改动背景 */
+
+#header {
+    background: url(../img/index/head2.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+/* 文字样式 */
+
+.contents {
+    margin-top: 2em;
+    color: rgb(73, 69, 70);
+    font-weight: bold;
+}
+body .container{
+    padding-left: 6em;
+    padding-right: 6em;
+}
+
+.china{
+    font-size: 1em;
+}
+.english {
+    font-size: 1em;
+    font-weight: 200;
+    margin-bottom: 2.5em;
+}
+
+
+/* 容器样式 */
+
+.container .row .introduce .wire {
+    display: block;
+    border-bottom: 1px solid rgb(73, 69, 70);
+    width: 2em;
+    margin: 0 auto 1.5em;
+}
+
+
+
+/* 轮播图样式 */
+
+#lunbo1 .carousel .item,
+#lunbo2 .carousel .item {
+    height: 13em;
+}
+
+#lunbo1 .carousel-inner>.item>a>img,
+#lunbo1 .carousel-inner>.item>img,
+#lunbo2 .carousel-inner>.item>a>img,
+#lunbo2 .carousel-inner>.item>img {
+    width: 100%;
+    height: 100%;
+}
+
+#lunbo1 .plane_text,
+#lunbo2 .plane_text {
+    margin: 20px auto;
+}
+
+#lunbo1 .plane_img,
+#lunbo2 .plane_img {
+    width: 1000px;
+    height: 450px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+#lunbo1 .plane_img img,
+#lunbo2 .plane_img img {
+    width: 310px;
+    height: 210px;
+}
+
+#lunbo1 .plane_img ul,
+#lunbo2 .plane_img ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#lunbo1 .plane_img li,
+#lunbo2 .plane_img li {
+    width: 500px;
+    height: 220px;
+}
+
+#lunbo1 .plane_img li a,
+#lunbo2 .plane_img li a {
+    display: inline-block;
+    position: relative;
+    bottom: 78px;
+}
+
+
+/* 轮播图旁文字样式 */
+
+#lunbo1 .plane_img_text,
+#lunbo2 .plane_img_text {
+    display: inline-block;
+    height: 13em;
+    background-color: rgb(20, 21, 25);
+    color: rgb(252, 252, 253);
+    padding: 0.8em 1.8em;
+}
+
+#lunbo1 .plane_img_text>h4,
+#lunbo1 .plane_img_text>h5,
+#lunbo2 .plane_img_text>h4,
+#lunbo2 .plane_img_text>h5 {
+    text-align: center;
+}
+
+#lunbo1 .plane_img_text>h4,
+#lunbo2 .plane_img_text>h4 {
+    color: rgb(208, 191, 163);
+    margin: 2em auto 0.5em;
+    font-size: 1em;
+}
+
+#lunbo1 .plane_img_text>h5,
+#lunbo2 .plane_img_text>h5 {
+    color: rgb(190, 189, 196);
+    margin: 4px auto;
+    font-size: 0.8em;
+}
+
+#lunbo1 .plane_img_text>p>span,
+#lunbo2 .plane_img_text>p>span {
+    margin: 0 4px 4px 4px;
+    width: 4em;
+    height: 1px;
+    display: inline-block;
+    border-bottom: 1px solid rgb(190, 189, 196);
+}
+
+#lunbo1 .plane_img_text p,
+#lunbo2 .plane_img_text p {
+    color: rgb(190, 189, 196);
+    font-size: 3px;
+    text-align: center;
+    margin: 1em auto;
+}
+
+#lunbo1 .plane_img_text p b,
+#lunbo2 .plane_img_text p b {
+    font-size: 5em;
+}
+
+#lunbo1 .plane_img_text .title,
+#lunbo2 .plane_img_text .title {
+    color: rgb(190, 189, 196);
+    font-size: 0.1em;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 1.6em;
+    text-indent: 2em;
+}
+
+#lunbo1 .btn,
+#lunbo2 .btn {
+    border-radius: 1em;
+    color: rgb(208, 191, 163);
+    background-color: rgb(20, 21, 25);
+    margin: 0 auto;
+    border: 1px solid rgb(208, 191, 163);
+}
+#lunbo1 .btn:hover,
+#lunbo2 .btn:hover {
+    background-color: rgb(208, 191, 163);
+    color: rgb(20, 21, 25);
+    font-weight: 200;
+}
+#lunbo1 .btn-xs,
+#lunbo2 .btn-xs {
+    padding: 2px 14px;
+    margin: 0 auto;
+    display: block;
+}
+#lunbo1 .nopadding,
+#lunbo2 .nopadding,
+#lunbo-line .nopadding {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+/* 轮播点样式 */
+
+#lunbo1 .row,
+#lunbo2 .row {
+    margin: 0.5em;
+}
+
+#lunbo1 .carousel-indicators,
+#lunbo2 .carousel-indicators {
+    bottom: -0.4em;
+    width: 100%;
+    margin: 0 auto;
+    left: 0;
+}
+
+#lunbo1 .carousel-indicators li,
+#lunbo2 .carousel-indicators li {
+    border-radius: 0;
+    width: 32%;
+    height: 4px;
+    margin: 0;
+    border: none;
+}
+
+#lunbo1 .carousel-indicators .active,
+#lunbo2 .carousel-indicators .active {
+    width: 32%;
+    height: 4px;
+    background-color: rgb(236, 236, 236);
+}
+
+
+/* 左右阴影去掉 */
+
+#carousel-example-generic1 .carousel-control.left,
+#carousel-example-generic2 .carousel-control.left,
+#carousel-example-generic3 .carousel-control.left,
+#carousel-example-generic4 .carousel-control.left {
+    background-image: none;
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+}
+
+#carousel-example-generic1 .carousel-control.right,
+#carousel-example-generic2 .carousel-control.right,
+#carousel-example-generic3 .carousel-control.right,
+#carousel-example-generic4 .carousel-control.right {
+    left: auto;
+    right: 0;
+    background-image: none;
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+}
+
+#carousel-example-generic1 .carousel-control,
+#carousel-example-generic2 .carousel-control,
+#carousel-example-generic3 .carousel-control,
+#carousel-example-generic4 .carousel-control {
+    height: 8.4em;
+}
+
+
+/* 替换原有图标样式 */
+
+#carousel-example-generic1 .glyphicon-menu-left,
+#carousel-example-generic2 .glyphicon-menu-left,
+#carousel-example-generic3 .glyphicon-menu-left,
+#carousel-example-generic4 .glyphicon-menu-left {
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+    display: inline-block;
+    margin-left: -0.5em;
+}
+
+#carousel-example-generic1 .glyphicon-menu-right,
+#carousel-example-generic2 .glyphicon-menu-right,
+#carousel-example-generic3 .glyphicon-menu-right,
+#carousel-example-generic4 .glyphicon-menu-right {
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+    display: inline-block;
+    margin-left: -0.5em;
+}
+
+
+
+#lunbo-line .line {
+    border-bottom: 1px solid rgb(112, 98, 74);
+    width: 100%;
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+}
+
+#lunbo1 .btn:focus,
+#lunbo1 .btn:active:focus,
+#lunbo1 .btn.active:focus,
+#lunbo1 .btn.focus,
+#lunbo1 .btn:active.focus,
+#lunbo1 .btn.active.focus {
+    outline: none;
+    box-shadow: none;
+}
+
+#lunbo2 .btn:focus,
+#lunbo2 .btn:active:focus,
+#lunbo2 .btn.active:focus,
+#lunbo2 .btn.focus,
+#lunbo2 .btn:active.focus,
+#lunbo2 .btn.active.focus {
+    outline: none;
+    box-shadow: none;
+}
+
+
+/* 下部跳转按钮样式 */
+
+#btns .btn:focus,
+#btns .btn:active:focus,
+#btns .btn.active:focus,
+#btns .btn.focus,
+#btns .btn:active.focus,
+#btns .btn.active.focus {
+    outline: none;
+    box-shadow: none;
+}
+
+#btns .btnxia {
+    background-color: rgb(236, 236, 236);
+    color: rgb(112, 98, 74);
+    border-radius: 0;
+    border: 1px solid rgb(112, 98, 74);
+    padding: 3px 10px;
+    margin-top: 1em;
+}
+
+#btns .btnxia:hover {
+    background-color: rgb(112, 98, 74);
+    color: rgb(236, 236, 236);
+}
+
+.copy {
+    color: rgb(112, 98, 74);
+    font-weight: 200;
+    font-size: 1px;
+}
+
+.glyphicon-option-horizontal {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: -1.8em;
+}
+
+
+/* 点的大小 */
+
+.row .text-center strong {
+    color: rgb(112, 98, 74);
+}
+
+.copy-top {
+    margin-top: 1.1em;
+}
+#myModal1 .img-responsive,
+#myModal2 .img-responsive{
+    width: 75em;
+    margin: 0 auto;
+}

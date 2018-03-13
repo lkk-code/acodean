@@ -1,0 +1,92 @@
+
+.nav-tabs,
+.nav-tabs>li>a,
+.nav-tabs>li.active>a, 
+.nav-tabs>li.active>a:focus, 
+.nav-tabs>li.active>a:hover{
+    border: none;
+}
+.nav-tabs{
+    border-bottom: 2px solid rgb(160, 159, 159); 
+}
+.nav-tabs>li.active>a, 
+.nav-tabs>li.active>a:focus, 
+.nav-tabs>li.active>a:hover{
+    border-bottom: 2px solid rgb(57,52,48) ;
+    color: rgb(57,52,48);
+}
+
+.nav-tabs>li>a{
+    color: rgb(140,140,140);
+    text-align: center;
+    border-bottom: 2px solid transparent;
+}
+.nav-tabs>li>a>h4{
+    margin-bottom: 0;
+    letter-spacing: 0.2em;
+}
+.nav-tabs>li>a>p{
+    font-size: 0.1em;
+    margin-bottom: 0;
+}
+.container .row .col-lg-12 .productlist .tab-content{
+    background-color: rgb(160, 159, 159);
+}
+.tab-content{
+    padding: 2em 8em; 
+}
+@media screen and (min-width: 300px) {
+    .tab-content{
+        padding: 2em 3em; 
+    }
+}
+
+#productlist{
+    background-color: rgb(237,237,237);
+}
+#productlist .nopadding {
+    padding-left: 0;
+    padding-right: 0;
+}
+#productlist .nopadding .slide {
+    height: 21.5em;
+    padding: 1em;
+    color: rgb(95, 92, 92);
+}
+#productlist .nopadding .slide:hover{
+    background-color: rgb(255,255,255);
+    cursor: pointer;
+    color: rgb(129, 127, 127);
+}
+#productlist .nopadding .slide .imgs img{
+    width: 100%;
+}
+#productlist .slide .times{
+    border-bottom: 2px solid rgb(236, 236, 236); 
+    padding: 0.5em 0em;
+}
+#productlist .slide .times img{
+    margin-right: 1em;
+}
+#productlist .slide .times p{
+    display: inline-block;
+    margin-left: 6em;
+    margin-bottom: 0;
+}
+#productlist .slide .times span{
+    margin-right: 1em;
+}
+#productlist .slide .names{
+    padding: 1em 0;
+}
+#productlist .slide .names img{
+    width: 2em;
+}
+#productlist .slide .names span{
+    margin-left: 2em;
+    margin-right: 8em;
+    font-size: 0.1em;
+}
+#productlist .slide .names .btns{
+    width: 4em;
+}

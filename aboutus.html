@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>J.O DESIGN STUDIO</title>
+    <link type="text/css" rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/header.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css">
+    <link type="text/css" rel="stylesheet" href="css/aboutus.css">
+</head>
+<body style="background-color: rgb(236, 236, 236)">
+  <header id="header">
+      
+  </header><!-- /header引入 -->
+  <main>
+    <div class="container">
+      <div class="row contents">
+        <div class="col-lg-10 col-md-10 col-sm-10 col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-1">
+          <!-- 介绍 -->
+          <div class="aboutjo text-center">
+              <p>关于天御</p>
+              <p>J.O DESIGN STUDIO</p>
+          </div>
+          <!-- 按钮组 -->
+          <div id="btns">
+            <div class="row">
+              <div class="col-lg-6 col-md-12 col-lg-offset-3 col-md-offset-2 col-sm-offset-1">
+                <button type="button" class="btn btn-md" onclick="javascript:window.open('about-team.html')">团队介绍 / TEAM</button>
+                <button type="button" class="btn btn-md" onclick="javascript:window.open('about-team.html')">视频 / VIDEO</button>
+              </div>
+              <div class="col-lg-6 col-md-12 col-lg-offset-3 col-md-offset-2 col-sm-offset-1">
+                <button type="button" class="btn btn-md" onclick="javascript:window.open('partners.html')">合作方 / PARTNERS</button>
+                <button type="button" class="btn btn-md" onclick="javascript:window.open('contactus.html')">联系我们 / CONTACT US</button>
+              </div>
+            </div>
+          </div>
+          <!-- 轮播图 -->
+          <div class="slider3">
+            <div class="slide"><img src="img/aboutus/1.png"></div>
+            <div class="slide"><img src="img/aboutus/2.png"></div>
+            <div class="slide"><img src="img/aboutus/3.png"></div>
+            <div class="slide"><img src="img/aboutus/4.png"></div>
+            <div class="slide"><img src="img/aboutus/5.png"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 col-md-10 col-sm-10 col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-1">
+          <span class="wire text-center"></span>
+          <div class="row words">
+            <div class=" chinese-line col-lg-6">
+              <p class="chinese">
+                天御设计团队成立于2010年，由设计总监JOEY带领设计团队打造各类品牌设计。对多个设计领域有着丰富的经验和出色的表达技法，并追求领先的设计和真实的使用性，一路以来完成过众多优秀设计项目。
+              </p>  
+              <p class="chinese">
+                我们会非常期待您的到来，在J.O天御设计事务所这里，我们可以畅所欲言，沟通设计想法以及商业理念。并且与我们互相分享生活中的点点滴滴，亦或是更多创意趣味的事物。
+              </p>
+            </div>
+            <div class="col-lg-6">
+              <p class="english">
+                The team was established in 2010, led by the design director JOEY. The design team built various brand design.Our design experience has turn into a number of design areas and including our excellent expression techniques. We have the pursuit of leading design and real practicality, which insert of all the way completed multiple outstanding design projects.
+              </p>
+              <p class="english">
+                We look forward to your arrival In J.O DESIGN STUDIO very much, we can speak freely, communicate design ideas and business ideas in here. And share wonderful moments of life with us or any interesting things.
+              </p>
+            </div>    
+          </div>
+          <!-- 声明 -->
+          <div class="row copy-top">
+            <div class="col-lg-10 col-md-10 col-sm-10 col-lg-offset-1 col-md-offset-1 col-sm-offset-2 col-xs-offset-2">
+              <p class="text-center copy">&copy;2016 JO DESIGN STUDIO INC.BRAND DESIGN COMPANY.ALL RIGHTS RESERVED</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </footer>
+        
+    <script src="js/ajax.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+          $('.slider3').bxSlider({
+            slideWidth: 186,
+            minSlides: 2,
+            maxSlides: 4,
+            moveSlides: 1,
+            slideMargin: 22
+          });
+        });
+    </script>
+</body>
+</html>

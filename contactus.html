@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>J.O DESIGN STUDIO</title>
+  <link type="text/css" rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css">
+  <link type="text/css" rel="stylesheet" href="css/contactus.css">
+</head>
+<body style="background:url(img/aboutus/c1.png) no-repeat;background-size: 100% 100%">
+  <header>
+    <h5 class="text-center">联系我们 / CONTACT US</h5>
+  </header>
+  <main>
+    <div class="container">
+      <div class="row content">
+        <div class="col-lg-10 col-md-10 col-sm-10 col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-1">
+          <div class="row">
+            <div class=" col-lg-8 col-lg-offset-2 col-md-8 col-sm-12 col-xs-12">
+              <div class="row" id="imgs">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
+                  <img src="img/aboutus/c2.png" alt="">
+                  <h4>室内设计</h4>
+                  <p>INTERIOR</p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
+                  <img src="img/aboutus/c3.png" alt="">
+                  <h4>公众号</h4>
+                  <p>PUBLIC</p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
+                  <img src="img/aboutus/c4.png" alt="">
+                  <h4>平面设计</h4>
+                  <p>GRAPHIC</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row" id="maps">
+            <div class="map col-lg-7 col-md-7 col-sm-12 col-xs-12" id="map">
+
+            </div>
+            <div class="map col-lg-5 col-md-5 col-sm-12 col-xs-12" id="cts">
+              <div class="cts-bg golden text-center">
+                <p>J.O DESIGN STUDIO</p>
+                <p><span>联系我们</span></p>
+                <span class="wire"></span>
+                <p>室内设计：<span>189 2936 2609</span> <img src="img/aboutus/QQ.png" alt="" class="qq"><span>993332609</span></p>
+                <p>平面设计：<span>189 2936 2609</span> <img src="img/aboutus/QQ.png" alt="" class="qq"><span>993332609</span></p>
+                <span class="wire"></span>
+                <p><span>公司地址：深圳市福田区新闻路中电信息大厦东座26楼</span></p>
+                <p><span>LEVE 26 CLP INFO BUILDINGXIN WEN ROAD.FUNTIAN.SHENZHEN</span></p>
+                <span class="wire"></span>
+                <p>
+                  <span>百度搜索：J.O天御设计</span>&nbsp;&nbsp;&nbsp;
+                  <span>站酷搜索：J.O天御设计</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 col-md-10 col-sm-10 col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-1">
+          <!-- 声明 -->
+          <div class="row copy-top">
+            <div class="col-lg-10 col-md-10 col-sm-10 col-lg-offset-1 col-md-offset-1 col-sm-offset-2 col-xs-offset-2">
+              <p class="text-center copy">&copy;2016 JO DESIGN STUDIO INC.BRAND DESIGN COMPANY.ALL RIGHTS RESERVED</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/ajax.js"></script>
+  <script src="js/jquery-1.9.1.min.js"></script>
+  <script src="js/jquery.bxslider.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=sGbBOLeOf9P0jFm2NBqWb5GAAZM7lY2V  "></script>
+  <script>
+    var map = new BMap.Map("map");    
+    var point = new BMap.Point(114.054708,22.547197);    
+    map.centerAndZoom(point, 15); 
+    var marker = new BMap.Marker(point);        // 创建标注    
+    map.addOverlay(marker);                     // 将标注添加到地图中  
+    window.setTimeout(function(){  
+        map.panTo(new BMap.Point(114.054708,22.547197));    
+    }, 2000);
+    var opts = {    
+    width : 100,     // 信息窗口宽度    
+    height: 50,     // 信息窗口高度    
+    title : "深圳J.O天御设计事务所"  // 信息窗口标题   
+    }    
+    var infoWindow = new BMap.InfoWindow("公司地址：深圳市福田区新闻路中电信息大厦东座26楼", opts);  // 创建信息窗口对象    
+    map.openInfoWindow(infoWindow, map.getCenter());      // 打开信息窗口
+
+    map.addControl(new BMap.NavigationControl());    
+    map.addControl(new BMap.ScaleControl());    
+    map.addControl(new BMap.OverviewMapControl());    
+    map.addControl(new BMap.MapTypeControl());    
+    map.setCurrentCity("深圳");   
+
+  </script>
+</body>
+</html>

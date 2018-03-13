@@ -1,0 +1,58 @@
+#header{
+    height: 8em;
+}
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+ul>li:first-child {
+    padding-top: 12px;
+}
+.title>a {
+    text-decoration: none;
+}
+
+.title>a>h4 {
+    color: rgb(208, 191, 163);
+    margin-top: 1.2em;
+    margin-bottom: 0.2em;
+    margin-left: 5em;
+    letter-spacing: 0.1em;
+    text-align: center;
+    font-size: 12px;
+}
+
+.navbar-default .navbar-nav>li>a,
+.navbar-toggle,
+.navbar-default .navbar-toggle {
+    color: rgb(190, 189, 196);
+    font-size: 12px;
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-toggle:hover {
+    color: rgb(208, 191, 163);
+}
+
+.navbar-default .navbar-toggle:hover {
+    background-color: #fff;
+    border-color: rgb(208, 191, 163);
+}
+.navbar-nav>li{
+    margin: 0 20px;
+}
+#my-menu .nav .reback{
+    background: url(../img/nav/3.png) no-repeat;
+    background-size: 100% 100%;
+    width: 1em;
+    height: 1em;
+    margin:0 auto;
+
+}
+#my-menu .nav .reback:hover{
+    background-image: url(../img/nav/4.png);
+}
+.navbar-default .navbar-nav>li>a:focus{
+    color: rgb(190, 189, 196);
+}
